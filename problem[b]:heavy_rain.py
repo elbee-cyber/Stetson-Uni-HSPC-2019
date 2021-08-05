@@ -1,6 +1,7 @@
+# Measure the amount of captured rain
 out = 0
-fl = int(input("Number of blocks: "))
-sl = str(input("Height values seperated by space: ")) 
+fl = int(input())
+sl = str(input()) 
 heights = list(map(int, sl.split()))
 heights.sort()
 heights.pop(-1)
